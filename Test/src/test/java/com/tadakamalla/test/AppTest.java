@@ -7,7 +7,7 @@ public class AppTest {
 	
 	@Test
 	public void testmain(){
-		App.main(null);
+	    App.main(null);
 	}
 
 }
