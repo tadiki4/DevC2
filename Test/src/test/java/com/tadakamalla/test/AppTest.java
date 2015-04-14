@@ -25,6 +25,13 @@ public class AppTest {
 	}
 	
 	@Test
+	public void FibonacciTestWithInvalidInput(){
+		int[] result = App.Fibonacci(0-0-0);
+		
+		assertNull(result);
+	}
+	
+	@Test
 	public void FibonacciTestWithZeroInput(){
 		int[] result = App.Fibonacci(0);
 			
